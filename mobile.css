@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+
+  body { padding:12px 10px 30px; justify-content:flex-start; }
+  h1 { font-size:15px; }
+  h1 small { display:none; }
+  #live-badge { font-size:10px; padding:3px 8px; }
+  #quality-badge { display:none !important; }
+
+  #channel-bar {
+    flex-wrap:nowrap; overflow-x:auto; padding-bottom:4px;
+    scrollbar-width:none;}
+
+  #channel-bar::-webkit-scrollbar { display:none; }
+  .ch-btn { height:36px; font-size:12px; padding:0 12px; flex-shrink:0; }
+  .ch-skeleton { width:100px; height:36px; flex-shrink:0; }
+  .player-wrap { border-radius:8px; }
+
+  .ctrl-bar { gap:6px; padding:30px 10px 10px; }
+  .btn { height:30px; padding:0 8px; font-size:11px; }
+  #btn-playpause { width:34px; height:34px; }
+  .ch-label { font-size:11px; }
+  #btn-quality { display:none !important; }
+
+  #btn-live { font-size:10px; height:22px; padding:0 7px; }
+  #go-live-btn { font-size:12px; padding:10px 16px; border-radius:10px; }
+  #go-live-btn svg { width:15px; height:15px; }
+  #quality-menu { right:10px; bottom:50px; min-width:130px; }
+  .info-bar { display:none; }
+
+  #m3u8-panel { padding:10px 12px; }
+  #m3u8-url { font-size:10px; }
+  #toast { font-size:11px; padding:7px 12px; }
+  #pick-screen .pick-icon { font-size:32px; }
+  #pick-screen p { font-size:13px; }
+}
+
+@media (min-width:601px) and (max-width:900px) {
+  body { padding:16px 12px 32px; }
+  .ch-btn { height:38px; font-size:12px; }
+  .ctrl-bar { gap:7px; }
+  #quality-badge { display:none !important; }
+}
